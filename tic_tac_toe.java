@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class tic_tac_toe {
 	
 	public static int checkWin(List<Integer> cv) {
 		if(cv.get(0)==1&&cv.get(1)==1&&cv.get(2)==1||cv.get(3)==1&&cv.get(4)==1&&cv.get(5)==1||cv.get(6)==1&&cv.get(7)==1&&cv.get(8)==1)
